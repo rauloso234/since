@@ -1,0 +1,31 @@
+# Gradle, Kotlin y salidas de Android
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+
+# Configuración local del SDK y del IDE
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Variables locales y material de firma
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+key.properties
+signing.properties
+secrets.properties
+google-services.json
